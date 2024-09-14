@@ -1,0 +1,127 @@
+   76  git status
+   77  git branch
+   78  git checkout -b brady-auth
+   79  git status
+   80  git add *
+   81  git status
+   82  git add .vscode/settings.json
+   83  git status
+   84  git commit -m "set up project and environment, created unauthenticated opening page, login and register modals, empty home page, added firebase auth"
+   85  git status
+   86  git remote
+   87  git push
+   88  git push --set-upstream origin brady-auth
+   89  git status
+   90  git checkout main
+   91  git branch -d brady-auth
+   93  git branc
+   94  git branch
+   96  git status
+   97  git pull
+   98  git status
+   99  git pull
+  100  git status
+  101  git stash
+  102  git status
+  103  git pull
+  104  git clean
+  105  git clean
+  106  git stash clear
+  107  git status
+  263  git status
+  264  git pull
+  265  git status
+  266  git pull.rebase false
+  267  git config pull.rebase false
+  268  git status
+  269  git status
+  271  git config pull.rebase false
+  272  git status
+  273  git pull
+  274  git status
+  275  git status
+  276  git push
+  277  git pull
+  278  git pull
+  766  git status
+  871  git clone git@github.com:esnt/stat386-blog-theme.git
+  877  git remote -v
+  878  git remote set-url origin git@github.com:bradyrichardson/my-blog-stat386.git
+  879  git remote -v
+  880  git status
+  881  git add *
+  882  git status
+  883  git commit -m "initial commit"
+  884  git push
+  887  git status
+  888  git add *
+  889  git commit -m "edited config file"
+  890  git push
+  897  git status
+  898  git add *
+  899  git commit -m "added about.md"
+  900  git push
+  905  git cadd *
+  906  git add *
+  907  git commit -m "removed about.md and changed markdown file"
+  908  git push
+  918  git add *
+  919  git commit -m "added first post"
+  920  git push
+  921  gitg -v
+  922  git -v
+  923  git --version
+  931  mkdir git-practice-bradyrichardson
+  932  cd git-practice-bradyrichardson
+  933  git init
+  934  git status
+  938  git status
+  939  git add *
+  940  git status
+  941  git commit -m "initial commit"
+  942  git commit -m "create new files"
+  943  touch .gitignore
+  944  git commit -m "create new files"
+  945  git add .git
+  946  git status
+  947  git add .gitignore
+  948  git commit -m "create new files"
+  949  git log
+  953  git status
+  954  git add file_1.txt
+  955  git status
+  956  git commit -m "first file changes"
+  957  git add file_2.txt
+  958  git commit -m "file 2 changes"
+  959  git log
+  962  git add Readme.md && git commit -m "create readme"
+  963  nano .gitignore
+  967  git checkout -b features
+  968  git log
+  970  git add new_features.txt
+  971  git commit -m "add empty file"
+  973  git add new_features.txt
+  974  git commit -m "add features"
+  975  git checkout main
+  977  git add file_1.txt
+  978  git commit -m "added line to file 1"
+  979  git merge features
+  980  git log
+  982  git add new_features.txt
+  983  git commit new_features.txt -m "new features file changed"
+  984  git checkout features
+  986  git add new_features.txt
+  987  git commit -m "creating merge conflict"
+  988  git checkout main
+  989  git merge features
+  991  git status
+  992  git add new_features.txt
+  993  git commit -m "fixed merge conflict"
+  994  git branch -d features
+  995  git remote add origin git@github.com:bradyrichardson/git-practice-bradyrichardson.git\ngit push -u origin main
+  996  git status
+ 1011  cd git-practice-bradyrichardson/
+ 1014  git status
+ 1015  git pull
+ 1016  git log --oneline > gitlog.txt\n
+ 1017  history | grep git > history.txt\n
